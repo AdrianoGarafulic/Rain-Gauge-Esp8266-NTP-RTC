@@ -7,11 +7,10 @@
 #include <BlynkSimpleEsp8266.h>
 #include <ArduinoOTA.h>
 #include <ESP8266mDNS.h>
-#define TENMINUTES (600*1000L) // ten minutes are 600000 milliseconds
 #define REEDINTERRUPT 2
 #define tip 0.3 //value of each tip
-const char* ssid     = "GAASI_WIFI-EXT-2";
-const char* password = "armando1";
+const char* ssid     = "";
+const char* password = "";
 int minuta;
 int ura;
 int sekunda;
